@@ -8,7 +8,7 @@
         linkedin
       </a>
       <span> | </span>
-      <a href="https://github.com/igeagonz" class="hover:underline"> github </a>
+      <a href="https://github.com/nachogea" class="hover:underline"> github </a>
       <span> | </span>
       <a href="https://twitter.com/iggylooo" class="hover:underline">
         twitter
