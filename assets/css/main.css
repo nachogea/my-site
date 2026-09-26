@@ -2,35 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
+:root {
+  --accent: 61 90 128;
+  --accent-strong: 38 61 92;
 }
 
-/* Terminal-style code blocks */
-.terminal {
-  @apply bg-base-300 rounded-lg p-4 font-mono text-sm;
+.dark {
+  --accent: 147 184 235;
+  --accent-strong: 176 205 245;
 }
 
-.terminal-prompt::before {
-  content: '$ ';
-  @apply text-accent;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /*
+    `dark:` utilities compile to `:is(.dark *)`, which can never match the
+    <html> element itself even though the theme class lives there. The page
+    background therefore needs explicit selectors.
+  */
+  html {
+    @apply bg-white text-stone-800;
+  }
+
+  html.dark {
+    @apply bg-stone-950 text-stone-300;
+    color-scheme: dark;
+  }
+
+  ::selection {
+    background-color: rgb(var(--accent) / 0.2);
+  }
+
+  a {
+    text-underline-offset: 3px;
+  }
 }
 
-/* Prose customization for blog posts */
-.prose {
-  @apply max-w-none;
-}
+@layer components {
+  /* Understated inline link used in prose and body copy. */
+  .link {
+    @apply text-accent-strong underline decoration-accent-strong/30 transition-colors hover:decoration-accent-strong dark:text-accent dark:decoration-accent/40 dark:hover:decoration-accent;
+  }
 
-.prose pre {
-  @apply bg-base-300 rounded-lg;
-}
+  /* Quiet navigation links with a clear active state. */
+  .nav-link {
+    @apply text-stone-500 transition-colors hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100;
+  }
 
-.prose code {
-  @apply bg-base-300 px-1 py-0.5 rounded text-sm;
-}
+  .nav-link-active {
+    @apply text-stone-900 dark:text-stone-100;
+  }
 
-.prose code::before,
-.prose code::after {
-  content: none;
+  .rule {
+    @apply border-t border-stone-200 dark:border-stone-800;
+  }
 }
