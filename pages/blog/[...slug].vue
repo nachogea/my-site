@@ -52,14 +52,14 @@ useHead({
       <p>
         Thanks for reading. Reach me on
         <a
-          href="https://www.linkedin.com/in/ignaciogea/"
+          href="https://www.linkedin.com/in/ignacio-gea-0abaa6b6/"
           target="_blank"
           rel="noopener noreferrer"
           class="link"
         >LinkedIn</a>
         or
         <a
-          href="https://x.com/nachogea_"
+          href="https://x.com/iggylooo"
           target="_blank"
           rel="noopener noreferrer"
           class="link"

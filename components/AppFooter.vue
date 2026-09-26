@@ -1,10 +1,9 @@
 <script setup lang="ts">
 const socials = [
-  { label: 'Email', href: 'mailto:ignacio@ignaciogea.com' },
+  { label: 'Email', href: 'mailto:igeagonz@gmail.com' },
   { label: 'GitHub', href: 'https://github.com/nachogea' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ignaciogea/' },
-  { label: 'X', href: 'https://x.com/nachogea_' },
-  { label: 'RSS', href: '/rss.xml' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ignacio-gea-0abaa6b6/' },
+  { label: 'X', href: 'https://x.com/iggylooo' },
 ]
 
 const year = new Date().getFullYear()

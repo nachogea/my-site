@@ -30,7 +30,7 @@ useHead({
       I occasionally write about
       <a href="/blog">career lessons</a> and the parts of engineering that have
       less to do with code. If you'd like to get in touch, email is best, or find
-      me on <a href="https://www.linkedin.com/in/ignaciogea/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+      me on <a href="https://www.linkedin.com/in/ignacio-gea-0abaa6b6/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
     </p>
   </div>
 </template>
