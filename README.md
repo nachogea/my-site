@@ -49,6 +49,6 @@ readingTime: 3
 
 - `layouts/default.vue` - page shell (header, content column, footer)
 - `components/` - `AppHeader` (nav + theme toggle) and `AppFooter`
-- `pages/` - `index` (about), `blog/` (list + post), `hard-skills`, `resume`
+- `pages/` - `index` (about), `blog/` (list + post), `hard-skills`
 - `composables/useTheme.ts` - light/dark theme state
 - `server/routes/rss.xml.ts` - RSS feed generated from the blog collection
