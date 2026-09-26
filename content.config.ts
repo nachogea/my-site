@@ -10,9 +10,8 @@ export default defineContentConfig({
         description: z.string(),
         date: z.string(),
         tags: z.array(z.string()).optional(),
-        image: z.string().optional(),
         readingTime: z.number().optional(),
-      })
-    })
-  }
+      }),
+    }),
+  },
 })

@@ -1,75 +1,54 @@
-# Nuxt 3 Minimal Starter
+# my-site
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Personal website and blog for Ignacio Gea.
+
+Built with [Nuxt 3](https://nuxt.com), [Tailwind CSS](https://tailwindcss.com),
+and [Nuxt Content](https://content.nuxt.com). The design is intentionally
+minimal: a narrow text column, restrained typography, and light/dark themes.
 
 ## Setup
 
-Make sure to install the dependencies:
+Install dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Development
 
-Start the development server on `http://localhost:3000`:
+Start the dev server on `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
 
-Build the application for production:
-
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run build     # build for production
+npm run preview   # preview the production build
+npm run generate  # static generation
 ```
 
-Locally preview production build:
+## Writing posts
 
-```bash
-# npm
-npm run preview
+Posts live in `content/blog/` as Markdown files. Frontmatter is validated by
+`content.config.ts`:
 
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+```yaml
+---
+title: "Post title"
+description: "One-line summary used in listings and meta tags."
+date: 2026-01-07
+tags: ["career"]
+readingTime: 3
+---
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Structure
+
+- `layouts/default.vue` - page shell (header, content column, footer)
+- `components/` - `AppHeader` (nav + theme toggle) and `AppFooter`
+- `pages/` - `index` (about), `blog/` (list + post), `hard-skills`, `resume`
+- `composables/useTheme.ts` - light/dark theme state
+- `server/routes/rss.xml.ts` - RSS feed generated from the blog collection

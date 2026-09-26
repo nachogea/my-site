@@ -3,17 +3,14 @@ title: "Welcome to My Blog"
 description: "An introduction to what you can expect from this blog - career insights, lessons learned, and reflections on the software engineering journey."
 date: 2026-01-07
 tags: ["career", "introduction"]
-image: "/img/blog/welcome.svg"
 readingTime: 3
 ---
-
-# Welcome to My Blog
 
 Hey there! After years of working as a Software Engineer, I've accumulated quite a few thoughts, lessons, and insights that I'd love to share. There may not be any content at the time of reading this post, but I hope to start publishing soon.
 
 ## What to Expect
 
-This blog will primarily focus on **career insights** - the soft side of software engineering that's often overlooked but incredibly important for long-term success. On occasion, I may also publish **technical insights** on occasion - sharing my experiences with various technologies and tools.
+This blog will primarily focus on **career insights** - the soft side of software engineering that's often overlooked but incredibly important for long-term success. On occasion, I may also publish **technical insights** - sharing my experiences with various technologies and tools.
 
 ### Topics I'll Cover
 
