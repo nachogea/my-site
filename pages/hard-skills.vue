@@ -53,8 +53,7 @@ useHead({
     <p class="text-sm text-stone-500 dark:text-stone-400">
       For what it's worth, I don't hold strong opinions on programming paradigms
       or languages. These days we're writing software in English as much as
-      anything else, so clear thinking and communication matter to me far more
-      than which tool is on the label.
+      anything else, so clear thinking and communication matter even more so now.
     </p>
   </div>
 </template>
