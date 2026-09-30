@@ -5,7 +5,6 @@ const links = [
   { label: 'About', to: '/' },
   { label: 'Writing', to: '/blog' },
   { label: 'Skills', to: '/hard-skills' },
-  { label: 'Resume', to: '/resume' },
 ]
 </script>
 
