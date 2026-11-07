@@ -6,7 +6,7 @@ tags: ["ai", "career"]
 readingTime: 4
 ---
 
-I just attended [Tessl's AI DevCon](https://tessl.io/devcon) in NYC, and I came out of it more confused about where software developers will be in the next few years. I heard some inspiring talks that made me want to go all in on building my own "AI Factory," some that made me want to spend more time writing my own harness skills, and quite a few that proposed solutions to the context/memory management problem for both cloud and local agent environments. My mental model of a software factory is the following:
+I just attended [Tessl's AI DevCon](https://tessl.io/devcon) in NYC, and I came out of it more confused about where software developers will be in the next few years. I heard some inspiring talks that made me want to go all in on building my own "AI Factory", some that made me want to spend more time writing my own harness skills, and quite a few that proposed solutions to the context/memory management problem for both cloud and local agent environments. My mental model of a software factory is the following:
 
 1. Work with humans and agents to spec out Linear/Jira tickets.
 2. Feed the ticket to the factory (i.e., assign the ticket to the factory).
